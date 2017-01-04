@@ -1,0 +1,15 @@
+Usage: solver.py
+Assumes: 
+1. python is installed on the system at /usr/bin/python
+2. puzzle.txt file exists in the same directory. This is a 9x9 sudoku puzzle. 
+   x stands for blank and 1..9 for the value in the square.
+
+Browsing hints:
+1. best viewed by setting tabstop to 2. (I know this is not universally liked)
+
+Limitations:
+1. No adversarial testing has been done.
+2. The function puzzleBoxPossibleValues needs to be implemented. The solver has
+   been able to solve all the puzzles so far, so I have left this for future.
+
+
